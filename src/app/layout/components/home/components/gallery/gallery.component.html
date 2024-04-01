@@ -1,0 +1,10 @@
+<div class="gallery" id="gallery">
+  <h2 class="main-title">Gallery</h2>
+  <div class="container">
+    <div class="box" *ngFor="let gallery of galleryData">
+      <div class="image">
+        <img [src]="gallery.img" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
