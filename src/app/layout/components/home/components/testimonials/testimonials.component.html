@@ -1,0 +1,23 @@
+<div class="testimonials" id="testimonials">
+  <h2 class="main-title">Testimonials</h2>
+  <div class="container">
+    <div class="box" *ngFor="let testimonial of testimonialsData">
+      <img [src]="testimonial.img" alt="" />
+      <h3>{{ testimonial.name }}</h3>
+      <span class="title">{{ testimonial.jobTitle }}</span>
+      <div class="rate">
+        <i class="filled fas fa-star"></i>
+        <i class="filled fas fa-star"></i>
+        <i class="filled fas fa-star"></i>
+        <i class="filled fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+        saepe, exercitationem facere dolor praesentium odio, quia, soluta
+        assumenda iste id a natus unde. Voluptatibus atque sequi cumque aliquid,
+        magnam totam!
+      </p>
+    </div>
+  </div>
+</div>

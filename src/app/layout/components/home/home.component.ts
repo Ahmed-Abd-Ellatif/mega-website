@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { HeroComponent } from './components/hero/hero.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { TeamMembersComponent } from './components/team-members/team-members.component';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +16,8 @@ import { FeaturesComponent } from './components/features/features.component';
     ArticlesComponent,
     GalleryComponent,
     FeaturesComponent,
+    TestimonialsComponent,
+    TeamMembersComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
