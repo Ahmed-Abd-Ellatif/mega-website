@@ -1,3 +1,4 @@
+import { ServicesSectionComponent } from './components/services-section/services-section.component';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -18,6 +19,7 @@ import { TeamMembersComponent } from './components/team-members/team-members.com
     FeaturesComponent,
     TestimonialsComponent,
     TeamMembersComponent,
+    ServicesSectionComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],

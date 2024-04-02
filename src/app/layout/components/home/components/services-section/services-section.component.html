@@ -1,0 +1,12 @@
+<div class="services" id="services">
+  <h2 class="main-title">Services</h2>
+  <div class="container">
+    <div class="box" *ngFor="let service of servicesData">
+      <i [class]="service.icon"></i>
+      <h3>{{ service.serName }}</h3>
+      <div class="info">
+        <a href="#">Details</a>
+      </div>
+    </div>
+  </div>
+</div>
