@@ -7,6 +7,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TeamMembersComponent } from './components/team-members/team-members.component';
+import { OurSkillsComponent } from './components/our-skills/our-skills.component';
 
 @Component({
   selector: 'app-home',
@@ -20,6 +21,7 @@ import { TeamMembersComponent } from './components/team-members/team-members.com
     TestimonialsComponent,
     TeamMembersComponent,
     ServicesSectionComponent,
+    OurSkillsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],

@@ -1,0 +1,16 @@
+<div class="our-skills" id="our-skills">
+  <h2 class="main-title">Our Skills</h2>
+  <div class="container">
+    <img src="../../../../../../assets/imgs/skills.png" />
+    <div class="skills">
+      <div class="skill" *ngFor="let skill of skills">
+        <h3>
+          {{ skill.skillName }} <span>{{ skill.progress }}</span>
+        </h3>
+        <div class="the-progress">
+          <span [style]="skill.progressStyle"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
