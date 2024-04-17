@@ -1,0 +1,16 @@
+<div class="work-steps" id="work-steps">
+  <h2 class="main-title">How It Works ?</h2>
+  <div class="container">
+    <img class="image" src="../../../../../../assets/imgs/work-steps.png" />
+
+    <div class="info">
+      <div class="box" *ngFor="let workStep of workStepsData">
+        <img [src]="workStep.img" />
+        <div class="text">
+          <h3>{{ workStep.title }}</h3>
+          <p>{{ workStep.desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

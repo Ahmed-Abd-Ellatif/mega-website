@@ -8,6 +8,7 @@ import { FeaturesComponent } from './components/features/features.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TeamMembersComponent } from './components/team-members/team-members.component';
 import { OurSkillsComponent } from './components/our-skills/our-skills.component';
+import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 
 @Component({
   selector: 'app-home',
@@ -22,6 +23,7 @@ import { OurSkillsComponent } from './components/our-skills/our-skills.component
     TeamMembersComponent,
     ServicesSectionComponent,
     OurSkillsComponent,
+    HowToWorkComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
