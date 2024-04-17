@@ -9,6 +9,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { TeamMembersComponent } from './components/team-members/team-members.component';
 import { OurSkillsComponent } from './components/our-skills/our-skills.component';
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
+import { EventsComponent } from './components/events/events.component';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +25,7 @@ import { HowToWorkComponent } from './components/how-to-work/how-to-work.compone
     ServicesSectionComponent,
     OurSkillsComponent,
     HowToWorkComponent,
+    EventsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],

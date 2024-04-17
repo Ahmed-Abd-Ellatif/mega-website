@@ -1,0 +1,28 @@
+<div class="events" id="events">
+  <h2 class="main-title">Latest Events</h2>
+  <div class="container">
+    <img src="../../../../../../assets/imgs/events.png" />
+    <div class="info">
+      <div class="time">
+        <div class="unit" *ngFor="let unit of unitData">
+          <span>{{ unit.count }}</span>
+          <span>{{ unit.name }}</span>
+        </div>
+      </div>
+      <h2 class="title">Tech Masters Event 2024</h2>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi
+        libero debitis exercitationem, consectetur reiciendis non doloremque
+        nihil odio fuga quae cupiditate voluptas, saepe iste ea vitae expedita
+        obcaecati optio?
+      </p>
+    </div>
+
+    <div class="subscribe">
+      <form>
+        <input type="email" placeholder="Enter Your Email" />
+        <input type="submit" value="Subscribe" />
+      </form>
+    </div>
+  </div>
+</div>
