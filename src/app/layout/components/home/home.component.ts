@@ -11,6 +11,8 @@ import { OurSkillsComponent } from './components/our-skills/our-skills.component
 import { HowToWorkComponent } from './components/how-to-work/how-to-work.component';
 import { EventsComponent } from './components/events/events.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { TopVideosComponent } from './components/top-videos/top-videos.component';
+import { StatsComponent } from './components/stats/stats.component';
 
 @Component({
   selector: 'app-home',
@@ -28,6 +30,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
     HowToWorkComponent,
     EventsComponent,
     PricingComponent,
+    TopVideosComponent,
+    StatsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],

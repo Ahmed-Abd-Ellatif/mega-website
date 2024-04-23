@@ -1,0 +1,80 @@
+@import "../../../../../../assets/styles/variables.scss";
+
+.stats {
+  padding-top: $main-padding;
+  padding-bottom: $main-padding;
+  position: relative;
+  background-image: url("../../../../../../assets/imgs/stats.jpg");
+  background-size: cover;
+  min-height: 300px;
+  h2 {
+    font-weight: bold;
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto 50px;
+    position: relative;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    .box {
+      background-color: #fff;
+      padding: 30px 15px;
+      text-align: center;
+      position: relative;
+      opacity: 0.8;
+      transition: $main-transition;
+
+      i {
+      }
+      .number {
+        display: block;
+        font-size: 58px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .text {
+        font-style: italic;
+        font-weight: bold;
+      }
+
+      &:hover {
+        opacity: 1;
+        &::before {
+          height: 100%;
+        }
+        &::after {
+          height: 100%;
+        }
+      }
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        background-color: $main-color;
+        transition: 1s;
+        height: 0;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+      }
+      &::after {
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / 95%);
+  }
+}

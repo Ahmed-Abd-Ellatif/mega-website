@@ -1,0 +1,70 @@
+@import "../../../../../../assets/styles/variables.scss";
+.videos {
+  padding-top: $main-padding;
+  padding-bottom: $main-padding;
+  position: relative;
+  .container {
+    .holder {
+      display: flex;
+      justify-content: center;
+      background-color: $section-background;
+      border: 1px solid #ddd;
+      .list {
+        min-width: 300px;
+        background-color: #fff;
+
+        .name {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+          background-color: #f4f4f4;
+          font-weight: bold;
+          color: $main-color;
+          i {
+          }
+        }
+        ul {
+          li {
+            padding: 20px;
+            border-top: 1px solid $section-background;
+            cursor: pointer;
+            transition: $main-transition;
+            span {
+              display: block;
+              margin-top: 10px;
+              color: #777;
+            }
+            &:hover {
+              background-color: #fafafa;
+              color: $main-color;
+            }
+          }
+        }
+      }
+      .preview {
+        background-color: #e2e2e2;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+          max-width: 100%;
+        }
+        .info {
+          padding: 20px;
+          background-color: #fff;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .videos {
+    .container {
+      .holder {
+        flex-direction: column;
+      }
+    }
+  }
+}
