@@ -13,6 +13,7 @@ import { EventsComponent } from './components/events/events.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { TopVideosComponent } from './components/top-videos/top-videos.component';
 import { StatsComponent } from './components/stats/stats.component';
+import { DiscountComponent } from './components/discount/discount.component';
 
 @Component({
   selector: 'app-home',
@@ -32,6 +33,7 @@ import { StatsComponent } from './components/stats/stats.component';
     PricingComponent,
     TopVideosComponent,
     StatsComponent,
+    DiscountComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
